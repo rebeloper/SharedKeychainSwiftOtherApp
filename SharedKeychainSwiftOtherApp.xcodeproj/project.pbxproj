@@ -11,6 +11,7 @@
 		C940B75921C65AF8007E8EF9 /* GetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940B75821C65AF8007E8EF9 /* GetViewController.swift */; };
 		C940B75B21C65AF8007E8EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C940B75A21C65AF8007E8EF9 /* Assets.xcassets */; };
 		C940B75E21C65AF9007E8EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C940B75C21C65AF9007E8EF9 /* LaunchScreen.storyboard */; };
+		C940B76621C65CE8007E8EF9 /* FlatUIColorsSwift.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C940B76521C65CE8007E8EF9 /* FlatUIColorsSwift.xcassets */; };
 		CA16DAC2D3A7951747D5D58D /* Pods_SharedKeychainSwiftOtherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F08557B1CB7CA0FE123C42C /* Pods_SharedKeychainSwiftOtherApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		C940B75A21C65AF8007E8EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C940B75D21C65AF9007E8EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C940B75F21C65AF9007E8EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C940B76521C65CE8007E8EF9 /* FlatUIColorsSwift.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlatUIColorsSwift.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				C940B75621C65AF8007E8EF9 /* AppDelegate.swift */,
 				C940B75821C65AF8007E8EF9 /* GetViewController.swift */,
+				C940B76521C65CE8007E8EF9 /* FlatUIColorsSwift.xcassets */,
 				C940B75A21C65AF8007E8EF9 /* Assets.xcassets */,
 				C940B75C21C65AF9007E8EF9 /* LaunchScreen.storyboard */,
 				C940B75F21C65AF9007E8EF9 /* Info.plist */,
@@ -82,7 +85,6 @@
 				722E89484DADCADEDC4E005E /* Pods-SharedKeychainSwiftOtherApp.debug.xcconfig */,
 				54042CAD1A765A61BF3C4067 /* Pods-SharedKeychainSwiftOtherApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -148,6 +150,7 @@
 			files = (
 				C940B75B21C65AF8007E8EF9 /* Assets.xcassets in Resources */,
 				C940B75E21C65AF9007E8EF9 /* LaunchScreen.storyboard in Resources */,
+				C940B76621C65CE8007E8EF9 /* FlatUIColorsSwift.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
