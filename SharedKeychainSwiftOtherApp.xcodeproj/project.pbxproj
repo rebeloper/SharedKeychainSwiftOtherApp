@@ -8,15 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C940B75721C65AF8007E8EF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940B75621C65AF8007E8EF9 /* AppDelegate.swift */; };
-		C940B75921C65AF8007E8EF9 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940B75821C65AF8007E8EF9 /* SetViewController.swift */; };
+		C940B75921C65AF8007E8EF9 /* GetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940B75821C65AF8007E8EF9 /* GetViewController.swift */; };
 		C940B75B21C65AF8007E8EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C940B75A21C65AF8007E8EF9 /* Assets.xcassets */; };
 		C940B75E21C65AF9007E8EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C940B75C21C65AF9007E8EF9 /* LaunchScreen.storyboard */; };
+		CA16DAC2D3A7951747D5D58D /* Pods_SharedKeychainSwiftOtherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F08557B1CB7CA0FE123C42C /* Pods_SharedKeychainSwiftOtherApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F08557B1CB7CA0FE123C42C /* Pods_SharedKeychainSwiftOtherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedKeychainSwiftOtherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54042CAD1A765A61BF3C4067 /* Pods-SharedKeychainSwiftOtherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedKeychainSwiftOtherApp.release.xcconfig"; path = "Target Support Files/Pods-SharedKeychainSwiftOtherApp/Pods-SharedKeychainSwiftOtherApp.release.xcconfig"; sourceTree = "<group>"; };
+		722E89484DADCADEDC4E005E /* Pods-SharedKeychainSwiftOtherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedKeychainSwiftOtherApp.debug.xcconfig"; path = "Target Support Files/Pods-SharedKeychainSwiftOtherApp/Pods-SharedKeychainSwiftOtherApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C940B75321C65AF8007E8EF9 /* SharedKeychainSwiftOtherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedKeychainSwiftOtherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C940B75621C65AF8007E8EF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C940B75821C65AF8007E8EF9 /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		C940B75821C65AF8007E8EF9 /* GetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetViewController.swift; sourceTree = "<group>"; };
 		C940B75A21C65AF8007E8EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C940B75D21C65AF9007E8EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C940B75F21C65AF9007E8EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,17 +31,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA16DAC2D3A7951747D5D58D /* Pods_SharedKeychainSwiftOtherApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31834DE8CC5D945266D8AAA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F08557B1CB7CA0FE123C42C /* Pods_SharedKeychainSwiftOtherApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C940B74A21C65AF8007E8EF9 = {
 			isa = PBXGroup;
 			children = (
 				C940B75521C65AF8007E8EF9 /* SharedKeychainSwiftOtherApp */,
 				C940B75421C65AF8007E8EF9 /* Products */,
+				E9416709878D24A73B751B6E /* Pods */,
+				31834DE8CC5D945266D8AAA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,12 +68,22 @@
 			isa = PBXGroup;
 			children = (
 				C940B75621C65AF8007E8EF9 /* AppDelegate.swift */,
-				C940B75821C65AF8007E8EF9 /* SetViewController.swift */,
+				C940B75821C65AF8007E8EF9 /* GetViewController.swift */,
 				C940B75A21C65AF8007E8EF9 /* Assets.xcassets */,
 				C940B75C21C65AF9007E8EF9 /* LaunchScreen.storyboard */,
 				C940B75F21C65AF9007E8EF9 /* Info.plist */,
 			);
 			path = SharedKeychainSwiftOtherApp;
+			sourceTree = "<group>";
+		};
+		E9416709878D24A73B751B6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				722E89484DADCADEDC4E005E /* Pods-SharedKeychainSwiftOtherApp.debug.xcconfig */,
+				54042CAD1A765A61BF3C4067 /* Pods-SharedKeychainSwiftOtherApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +93,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C940B76221C65AF9007E8EF9 /* Build configuration list for PBXNativeTarget "SharedKeychainSwiftOtherApp" */;
 			buildPhases = (
+				FC07FBEC74BB47F0A4F7B107 /* [CP] Check Pods Manifest.lock */,
 				C940B74F21C65AF8007E8EF9 /* Sources */,
 				C940B75021C65AF8007E8EF9 /* Frameworks */,
 				C940B75121C65AF8007E8EF9 /* Resources */,
+				394018A62038656883C3BC84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,13 +153,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		394018A62038656883C3BC84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SharedKeychainSwiftOtherApp/Pods-SharedKeychainSwiftOtherApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SharedKeychainSwiftOtherApp/Pods-SharedKeychainSwiftOtherApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC07FBEC74BB47F0A4F7B107 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharedKeychainSwiftOtherApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C940B74F21C65AF8007E8EF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C940B75721C65AF8007E8EF9 /* AppDelegate.swift in Sources */,
-				C940B75921C65AF8007E8EF9 /* SetViewController.swift in Sources */,
+				C940B75921C65AF8007E8EF9 /* GetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +344,7 @@
 		};
 		C940B76321C65AF9007E8EF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722E89484DADCADEDC4E005E /* Pods-SharedKeychainSwiftOtherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +363,7 @@
 		};
 		C940B76421C65AF9007E8EF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54042CAD1A765A61BF3C4067 /* Pods-SharedKeychainSwiftOtherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
